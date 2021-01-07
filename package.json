@@ -1,0 +1,26 @@
+{
+  "name": "semantic-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amykapernick/fender_fundamentals-semantic_html.git"
+  },
+  "author": "Amy Kapernick <amy@kapers.dev> (https://amyskapers.dev)",
+  "license": "MIT",
+  "staticFiles": {
+    "staticPath": [
+      "img",
+      "fonts"
+    ],
+    "watcherGlob": "**"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0"
+  }
+}
